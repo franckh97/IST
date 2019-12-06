@@ -1,0 +1,217 @@
+2019-11-08 14:45:00,921 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@464bee09: startup date [Fri Nov 08 14:45:00 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-08 14:45:01,843 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-08 14:45:02,897 | INFO  | PListStore:[D:\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-08 14:45:03,037 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-50373-1573220702909-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-08 14:45:03,108 | INFO  | Listening for connections at: tcp://LAPTOP-UVTU40BJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 14:45:03,110 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 14:45:03,116 | INFO  | Listening for connections at: amqp://LAPTOP-UVTU40BJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 14:45:03,118 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 14:45:03,125 | INFO  | Listening for connections at: stomp://LAPTOP-UVTU40BJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 14:45:03,128 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 14:45:03,133 | INFO  | Listening for connections at: mqtt://LAPTOP-UVTU40BJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 14:45:03,137 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 14:45:03,151 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-08 14:45:03,216 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-08 14:45:03,299 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@e383572{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-08 14:45:03,353 | INFO  | Listening for connections at ws://LAPTOP-UVTU40BJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-08 14:45:03,354 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 14:45:03,357 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-50373-1573220702909-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-08 14:45:03,360 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-08 14:45:04,361 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-08 14:45:04,368 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-15 15:48:45,345 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6eebc39e: startup date [Fri Nov 15 15:48:45 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-15 15:48:47,098 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-15 15:48:47,386 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-15 15:48:47,393 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-15 15:48:47,409 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-15 15:48:47,519 | INFO  | PListStore:[D:\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-15 15:48:47,667 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-65524-1573829327531-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-15 15:48:47,759 | INFO  | Listening for connections at: tcp://LAPTOP-UVTU40BJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-15 15:48:47,762 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-15 15:48:47,792 | INFO  | Listening for connections at: amqp://LAPTOP-UVTU40BJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-15 15:48:47,795 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-15 15:48:47,821 | INFO  | Listening for connections at: stomp://LAPTOP-UVTU40BJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-15 15:48:47,823 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-15 15:48:47,855 | INFO  | Listening for connections at: mqtt://LAPTOP-UVTU40BJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-15 15:48:47,856 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-15 15:48:47,900 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-15 15:48:48,127 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-15 15:48:48,280 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@77825085{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-15 15:48:48,408 | INFO  | Listening for connections at ws://LAPTOP-UVTU40BJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-15 15:48:48,409 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-15 15:48:48,412 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-65524-1573829327531-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-15 15:48:48,415 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-15 15:48:49,988 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-15 15:48:49,990 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-15 16:32:07,640 | WARN  | Transport Connection to: tcp://127.0.0.1:49165 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:49165@61616
+2019-11-15 16:32:54,891 | WARN  | Transport Connection to: tcp://127.0.0.1:49428 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:49428@61616
+2019-11-15 20:52:25,144 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6eebc39e: startup date [Fri Nov 15 20:52:25 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-15 20:52:26,946 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-15 20:52:27,289 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-15 20:52:27,299 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-15 20:52:27,312 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-15 20:52:27,426 | INFO  | PListStore:[D:\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-15 20:52:27,576 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-54140-1573847547439-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-15 20:52:27,682 | INFO  | Listening for connections at: tcp://LAPTOP-UVTU40BJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-15 20:52:27,688 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-15 20:52:27,716 | INFO  | Listening for connections at: amqp://LAPTOP-UVTU40BJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-15 20:52:27,720 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-15 20:52:27,745 | INFO  | Listening for connections at: stomp://LAPTOP-UVTU40BJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-15 20:52:27,748 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-15 20:52:27,779 | INFO  | Listening for connections at: mqtt://LAPTOP-UVTU40BJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-15 20:52:27,781 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-15 20:52:27,802 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-15 20:52:28,025 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-15 20:52:28,169 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@db57326{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-15 20:52:28,284 | INFO  | Listening for connections at ws://LAPTOP-UVTU40BJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-15 20:52:28,285 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-15 20:52:28,286 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-54140-1573847547439-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-15 20:52:28,290 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-15 20:52:29,848 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-15 20:52:29,849 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-15 20:57:32,328 | WARN  | Transport Connection to: tcp://127.0.0.1:54153 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54153@61616
+2019-11-15 21:32:39,662 | WARN  | Transport Connection to: tcp://127.0.0.1:54559 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54559@61616
+2019-11-17 11:44:54,448 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6eebc39e: startup date [Sun Nov 17 11:44:54 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-17 11:44:56,138 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-17 11:44:56,502 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-17 11:44:56,510 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-17 11:44:56,516 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-17 11:44:56,659 | INFO  | PListStore:[D:\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-17 11:44:56,806 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-53741-1573987496672-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-17 11:44:56,939 | INFO  | Listening for connections at: tcp://LAPTOP-UVTU40BJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 11:44:56,942 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 11:44:56,966 | INFO  | Listening for connections at: amqp://LAPTOP-UVTU40BJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 11:44:56,971 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 11:44:56,996 | INFO  | Listening for connections at: stomp://LAPTOP-UVTU40BJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 11:44:56,998 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 11:44:57,021 | INFO  | Listening for connections at: mqtt://LAPTOP-UVTU40BJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 11:44:57,023 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 11:44:57,050 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-17 11:44:57,209 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-17 11:44:57,384 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@db57326{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-17 11:44:57,525 | INFO  | Listening for connections at ws://LAPTOP-UVTU40BJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-17 11:44:57,525 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 11:44:57,536 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-53741-1573987496672-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-17 11:44:57,539 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-17 11:44:58,865 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-17 11:44:58,866 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-17 19:35:33,390 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6eebc39e: startup date [Sun Nov 17 19:35:33 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-17 19:35:35,159 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-17 19:35:35,680 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-17 19:35:35,687 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-17 19:35:35,696 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-17 19:35:35,794 | INFO  | PListStore:[D:\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-17 19:35:35,953 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-56760-1574015735806-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-17 19:35:36,060 | INFO  | Listening for connections at: tcp://LAPTOP-UVTU40BJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 19:35:36,062 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 19:35:36,077 | INFO  | Listening for connections at: amqp://LAPTOP-UVTU40BJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 19:35:36,078 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 19:35:36,116 | INFO  | Listening for connections at: stomp://LAPTOP-UVTU40BJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 19:35:36,117 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 19:35:36,131 | INFO  | Listening for connections at: mqtt://LAPTOP-UVTU40BJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 19:35:36,133 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 19:35:36,157 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-17 19:35:36,321 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-17 19:35:36,530 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@db57326{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-17 19:35:36,694 | INFO  | Listening for connections at ws://LAPTOP-UVTU40BJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-17 19:35:36,696 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 19:35:36,697 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-56760-1574015735806-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-17 19:35:36,698 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-17 19:35:38,508 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-17 19:35:38,510 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-17 21:13:48,436 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6eebc39e: startup date [Sun Nov 17 21:13:48 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-17 21:13:50,220 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-17 21:13:50,607 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-17 21:13:50,615 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-17 21:13:50,628 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-17 21:13:50,754 | INFO  | PListStore:[D:\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-17 21:13:50,947 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-59950-1574021630768-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-17 21:13:51,094 | INFO  | Listening for connections at: tcp://LAPTOP-UVTU40BJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 21:13:51,101 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 21:13:51,127 | INFO  | Listening for connections at: amqp://LAPTOP-UVTU40BJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 21:13:51,135 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 21:13:51,165 | INFO  | Listening for connections at: stomp://LAPTOP-UVTU40BJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 21:13:51,168 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 21:13:51,190 | INFO  | Listening for connections at: mqtt://LAPTOP-UVTU40BJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-17 21:13:51,191 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 21:13:51,205 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-17 21:13:51,356 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-17 21:13:51,500 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@db57326{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-17 21:13:51,632 | INFO  | Listening for connections at ws://LAPTOP-UVTU40BJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-17 21:13:51,633 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-17 21:13:51,634 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-59950-1574021630768-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-17 21:13:51,635 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-17 21:13:53,149 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-17 21:13:53,150 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-28 18:11:09,479 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6eebc39e: startup date [Thu Nov 28 18:11:09 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-28 18:11:11,287 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-28 18:11:11,663 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-28 18:11:11,671 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-28 18:11:11,679 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-28 18:11:11,805 | INFO  | PListStore:[D:\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-28 18:11:11,950 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-57527-1574961071819-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-28 18:11:12,109 | INFO  | Listening for connections at: tcp://LAPTOP-UVTU40BJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-28 18:11:12,115 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-28 18:11:12,134 | INFO  | Listening for connections at: amqp://LAPTOP-UVTU40BJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-28 18:11:12,136 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-28 18:11:12,157 | INFO  | Listening for connections at: stomp://LAPTOP-UVTU40BJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-28 18:11:12,160 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-28 18:11:12,175 | INFO  | Listening for connections at: mqtt://LAPTOP-UVTU40BJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-28 18:11:12,178 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-28 18:11:12,202 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-28 18:11:12,373 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-28 18:11:12,595 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@db57326{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-28 18:11:12,738 | INFO  | Listening for connections at ws://LAPTOP-UVTU40BJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-28 18:11:12,740 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-28 18:11:12,745 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-57527-1574961071819-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-28 18:11:12,747 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-28 18:11:14,238 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-28 18:11:14,239 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 00:41:14,821 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6eebc39e: startup date [Fri Nov 29 00:41:14 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-29 00:41:17,111 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-29 00:41:17,857 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 00:41:17,868 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-29 00:41:17,874 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 00:41:18,133 | INFO  | PListStore:[D:\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-29 00:41:18,290 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-65156-1574984478148-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-29 00:41:18,404 | INFO  | Listening for connections at: tcp://LAPTOP-UVTU40BJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 00:41:18,407 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 00:41:18,438 | INFO  | Listening for connections at: amqp://LAPTOP-UVTU40BJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 00:41:18,440 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 00:41:18,448 | INFO  | Listening for connections at: stomp://LAPTOP-UVTU40BJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 00:41:18,452 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 00:41:18,491 | INFO  | Listening for connections at: mqtt://LAPTOP-UVTU40BJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 00:41:18,493 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 00:41:18,542 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 00:41:18,674 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 00:41:18,846 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@db57326{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-29 00:41:19,009 | INFO  | Listening for connections at ws://LAPTOP-UVTU40BJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-29 00:41:19,010 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 00:41:19,012 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-65156-1574984478148-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-29 00:41:19,015 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-29 00:41:20,923 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 00:41:20,924 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 11:19:10,072 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6eebc39e: startup date [Fri Nov 29 11:19:10 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-29 11:19:11,023 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-29 11:19:11,251 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 11:19:11,258 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-29 11:19:11,264 | INFO  | Page File: D:\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 11:19:11,349 | INFO  | PListStore:[D:\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-29 11:19:11,506 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-50456-1575022751362-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-29 11:19:11,653 | INFO  | Listening for connections at: tcp://LAPTOP-UVTU40BJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 11:19:11,656 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 11:19:11,666 | INFO  | Listening for connections at: amqp://LAPTOP-UVTU40BJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 11:19:11,668 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 11:19:11,673 | INFO  | Listening for connections at: stomp://LAPTOP-UVTU40BJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 11:19:11,679 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 11:19:11,687 | INFO  | Listening for connections at: mqtt://LAPTOP-UVTU40BJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 11:19:11,689 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 11:19:11,697 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 11:19:11,768 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 11:19:11,867 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@db57326{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-29 11:19:11,929 | INFO  | Listening for connections at ws://LAPTOP-UVTU40BJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-29 11:19:11,930 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 11:19:11,932 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-UVTU40BJ-50456-1575022751362-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-29 11:19:11,936 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-29 11:19:12,910 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 11:19:12,922 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main

@@ -1,0 +1,28 @@
+<div>
+	<br/>
+	<select [(ngModel)]="selectedCar" required>
+    	<option *ngFor="let car of cars" [ngValue]="car">
+    		<div *ngIf="car.rented == true">
+    			{{car.brand}}
+    		</div>
+    	</option>
+  	</select>
+	 <br/>
+	 <div *ngIf="selectedCar">
+		 <ul>
+				<li>model: {{selectedCar.brand}}</li>
+		   	<li>price/day: {{selectedCar.price}} euros</li>
+		   	<li>plate number: {{selectedCar.plateNumber}}</li>
+			</ul>
+			<label>la voiture a été louer pour une durée: {{selectedCar.numberOfDays}} jour</label>
+			<br/>
+			<label>Rented: {{selectedCar.rented}}</label>
+			<br/>
+			<div (click)="onSelect(selectedCar)">
+					<button (click)="cancelRental(selectedCar)">Cancel rental</button>
+					<button (click)="goBack()">Return to the main menu</button>
+			</div>
+	 </div>
+	 <br/>
+
+</div>

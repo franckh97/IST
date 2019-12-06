@@ -1,0 +1,17 @@
+<div *ngIf="car">
+  <h2>Rental options for {{car.brand}}</h2>
+  <ul>
+  	<li>model: {{car.brand}}</li>
+  	<li>price/day: {{car.price}} euros</li>
+  	<li>plate number: {{car.plateNumber}}</li>
+  	<li>Choose the number of rental days: <input type="number" required min="1" [(ngModel)]="car.numberOfDays" /></li>
+  </ul>
+  <button (click)="rent(car)">Rent it !</button>
+  <button (click)="cancelRental(car)">Cancel rental</button>
+  <button (click)="goBack()">Return to the main menu</button>
+  <label>Rented: {{car.rented}}</label>
+  <br>
+  <a href="https://github.com/charroux/CarRental/blob/master/src/app/car-detail.component.html">Source code of the page</a>
+  <a href="https://github.com/charroux/CarRental/blob/master/src/app/car-detail.component.ts">Related component</a>
+
+</div>

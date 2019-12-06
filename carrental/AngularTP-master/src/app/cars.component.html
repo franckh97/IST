@@ -1,0 +1,41 @@
+<hr>
+
+<h3>Part of the screen displayed by default or when "Rent a car" is selected</h3>
+
+<h2>Select a car:</h2>
+
+<h3>Using angular li - click on any car to be rented:</h3>
+
+<ul class="cars">
+  <li *ngFor="let car of cars" (click)="onSelect(car)">
+  	{{car.plateNumber}}: {{car.brand}}: {{car.price}} euros/day
+  	<div *ngIf="car.rented == false">
+  		TO BE RENTED
+  	</div>
+  	<div *ngIf="car.rented == true">
+  		RENTED
+  	</div>
+  </li>
+</ul>
+
+<h3>Using angular select - Rented car:</h3>
+
+<div>
+	<select [(ngModel)]="selectedCar" required>
+    	<option *ngFor="let car of cars" [ngValue]="car">
+    		<div *ngIf="car.rented == false">
+
+    			{{car.brand}}
+    		</div>
+    	</option>
+  	</select>
+</div>
+
+<div *ngIf="selectedCar">
+  <h2>Selected car: {{selectedCar.brand | uppercase}}
+  </h2>
+  <button (click)="gotoDetail()">Choose my rental options</button>
+</div>
+
+<a href="https://github.com/charroux/CarRental/blob/master/src/app/cars.component.html">Source code of the page</a>
+<a href="https://github.com/charroux/CarRental/blob/master/src/app/cars.component.ts">Related component</a>
